@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #C3F0FC;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: rgb(248, 248, 248);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .custom-button {
+            margin: 4px 0; /* ลดระยะห่าง */
+            padding: 15px;
+            border-radius: 6px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .button5 {
+            display: inline-block;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: hsl(249, 100%, 50%);
+            border-radius: 6px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+        .button5:hover {
+            background-color: #c2c7c7;
+        }
+        .custom-button:hover {
+            transform: scale(1.05);
+        }
+        .button1 { background-color: #518192; }
+        .button2 { background-color: #fa806a; }
+        .button3 { background-color: #34d474; }
+        
+        /* ให้ภาพขยายเต็มความกว้าง */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-5">
+        <div class="header">
+            <h1>ประวัติส่วนตัว</h1>
+            <img src="./Work.png" class="img-fluid" alt="Profile Image">  
+        </div>
+
+        <div class="content">
+            <h2>ผลงานที่เคยทำ</h2>
+            <p>งานชมรม Cmru E-sport</p>
+            <img src="./Page Banner.png" class="img-fluid mb-3" alt="Page Banner"><br>
+            <img src="./Register Poster Final.png" class="img-fluid mb-3" alt="Register Poster"><br>
+            <img src="./โปสเตอร์วันแข่งขัน.png" class="img-fluid mb-3" alt="Competition Poster"><br>
+        </div>
+
+        <div class="row text-center mt-5">
+            <div class="col-12 col-md-4 mb-3">
+                <a class="btn custom-button button1 text-white btn-block" href="./Profile.html">ประวัติ</a>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <a class="btn custom-button button2 text-white btn-block" href="./Hobbies.html">งานอดิเรก</a>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <a class="btn custom-button button3 text-white btn-block" href="./Skill.html">ความสามารถ</a>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a class="button5" href="./index.html">My Website</a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
